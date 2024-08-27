@@ -1,3 +1,28 @@
+Project Overview
+
+We utilize image recognition to identify a type of object and a designated location, then secure the object on a robot to transport it from its original location to the destination. 
+The robot will scan around for the object using AI and find the best route to its destination. 
+In our project, this is used to push a bin to a refuse collection point.
+
+
+Proposed Approach
+
+Labour is a very precious resource, one of the four factors of production, and because of a constant shortage in labour supply, we decided to create a robot in order to reduce the demand of labour in some particular industries. For example, we suggest using this robot to transport rubbish to refuse collection points. 
+As we use image recognition as a base for the project, users can personalise the project by training the model themselves.
+By changing to pictures supplied to change the model, the object and destination can be changed easily.
+
+insert plain pic of bin
+
+insert pic of marked bin
+
+insert pic of bin with frame and percentage similar to bin listed
+
+Using a camera attached to the robot, the surroundings can be scanned to find whether there is a bin nearby. 
+This will be repeated until the bin is found and located at the front of the car. 
+Then, the bin will be pushed to a refuse collection point.
+
+
+
 To start creating a model, open notebooks in the jetracer file, then open interactive_regression.ipynb.
 Follow the instructions and run the code with the heading ‘Camera’.
 Then, change the dataset name here to what you prefer.
