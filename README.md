@@ -11,3 +11,10 @@ The robot senses for trash bins via the camera with AI. When a bin is detected, 
 It first locks in on an item, proceeds forward and then rotates at the anchor to further reach the destination.
 When the robot arrives, it utilises the magnets installed to attract and secure the bin onto the robot itself.
 The robot then moves away, back to its original position to charge or to bring another bin back to its location.
+
+pictures of blah blah here
+
+
+```
+aaaa
+```
