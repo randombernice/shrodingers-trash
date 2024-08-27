@@ -7,19 +7,16 @@ In our project, this is used to push a bin to a refuse collection point.
 
 Proposed Approach
 
-Labour is a very precious resource, one of the four factors of production, and because of a constant shortage in labour supply, we decided to create a robot in order to reduce the demand of labour in some particular industries. For example, we suggest using this robot to transport rubbish to refuse collection points. 
+As one of the four factors of production, labour is very important, and because of a constant shortage in labour supply, we decided to create a robot in order to reduce the demand of labour in some particular industries. For example, we suggest using this robot to transport rubbish to refuse collection points. 
 As we use image recognition as a base for the project, users can personalise the project by training the model themselves.
 By changing to pictures supplied to change the model, the object and destination can be changed easily.
 
-insert plain pic of bin
-
-insert pic of marked bin
-
-insert pic of bin with frame and percentage similar to bin listed
 
 Using a camera attached to the robot, the surroundings can be scanned to find whether there is a bin nearby. 
-This will be repeated until the bin is found and located at the front of the car. 
-Then, the bin will be pushed to a refuse collection point.
+It first locks in on the item, proceeds forward and then rotates at the anchor so that bin can be located at the front of the car. 
+The magnets installed can be used to secure the bin onto the robot itself.
+Then, the robot will search for the destination and calculate the quickest and most direct path to reach it.
+Thus, the bin will be pushed to a refuse collection point.
 
 
 
@@ -31,11 +28,6 @@ Run the Data Collection code and you should see a sqaure with the contents of th
 Click on the object you wish for the AI to recognise, move the camera and proceed to the next image.
 Collect sufficient data by taking about 20-30 photos in various angles and directions.
 
-Operation explanation!
-The robot senses for trash bins via the camera with AI. When a bin is detected, the robot finds the most direct path to the bin calculates the best way to approach.
-It first locks in on an item, proceeds forward and then rotates at the anchor to further reach the destination.
-When the robot arrives, it utilises the magnets installed to attract and secure the bin onto the robot itself.
-The robot then moves away, back to its original position to charge or to bring another bin back to its location.
 
 pictures of blah blah here
 
